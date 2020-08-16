@@ -48,9 +48,23 @@ function getProper(input) {
       return input.id.charAt(0).toUpperCase() + input.id.slice(1) ;
 }
 
+// Function to check length of characters
+
+function checkLength(input, min , max) {
+   if( input.value.length < min ){
+       showError(input, `${getProper(input)} need to be at least ${min} character`)
+   } else if ( input.value.length > max) {
+    showError(input, `${getProper(input)} need to be less than ${max} character`)
+   } else {
+       showSuccess(input);
+   }
+}
+
 // this is an event listener for the form 
 form.addEventListener('submit' , function(e) {
     e.preventDefault();
     
     checkRequired([username,email,password,password2])
+    checkLength(username,3,10)
+    checkLength(password,6,30)
 })
