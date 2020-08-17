@@ -69,7 +69,7 @@ function checkLength(input, min , max) {
 function matchPas(input, input2) {
     if(input.value !== input2.value) {
         showError(input2, 'password is not match')
-    }
+    } 
 }
 
 // this is an event listener for the form 
