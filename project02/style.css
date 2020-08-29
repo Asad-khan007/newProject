@@ -115,3 +115,16 @@ p.text {
 p.text span {
    color: aqua;
 }
+
+.Home {
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+    align-items: center;
+    background-color: brown;
+    padding: 2px 6px;
+    margin-top: 15px;
+    border: 2px solid aqua;
+    font-family: sans-serif;
+}
+
+
