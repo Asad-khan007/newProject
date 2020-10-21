@@ -47,6 +47,7 @@ p {
   padding: 5px 10px;
   border: 1px solid black;
   font-size: 16px;
+  width: 60% ;
 }
 
 .currency input {
@@ -55,7 +56,7 @@ p {
   color: white;
   font-size: 28px;
   text-align: right;
-  width: 100px;
+  width: 50%;
 }
 
 .flip-container{
@@ -65,7 +66,7 @@ p {
 }
 
 .rate {
-  color: #fff;
+  color: rgb(223, 145, 145);
   display: flex;
   flex-direction: column;
   color: black;
