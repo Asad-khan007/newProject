@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Heading {
+    background-color: lightblue;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+li a {
+    color: black;
+}
